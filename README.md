@@ -13,6 +13,7 @@ No se requiere build ni dependencias.
 
 - Modifica textos y datos de contacto en `content/site.json`.
 - Reemplaza las imágenes en `public/images/` manteniendo los mismos nombres o ajustando las rutas en el JSON.
+
 - El archivo JSON también incluye descripciones de contacto y servicios que puedes adaptar a tu mensaje.
 
 ## Personalización
