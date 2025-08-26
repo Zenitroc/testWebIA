@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{NOMBRE_EMPRESA}}</title>
+  <meta name="description" content="{{ESLOGAN}}" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="public/images/logo.png" alt="Logo {{NOMBRE_EMPRESA}}" class="logo" />
+    <button id="theme-toggle" aria-label="Cambiar tema">🌓</button>
+  </header>
+  <main>
+    <section id="hero">
+      <h1 id="hero-title"></h1>
+      <p id="hero-subtitle"></p>
+      <div class="cta">
+        <a href="#contact" class="btn primary" id="primary-cta"></a>
+        <a href="#services" class="btn secondary" id="secondary-cta"></a>
+      </div>
+    </section>
+    <section id="services">
+      <h2>Servicios</h2>
+      <div id="services-grid" class="grid"></div>
+    </section>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p id="contact-description"></p>
+      <form id="contact-form">
+        <label>Nombre
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Mensaje
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit" class="btn primary">Enviar</button>
+      </form>
+      <div class="contact-data">
+        <p id="contact-email"></p>
+        <p id="contact-phone"></p>
+        <p id="contact-address"></p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
