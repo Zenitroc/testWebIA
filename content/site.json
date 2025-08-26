@@ -1,19 +1,26 @@
 {
   "hero": {
     "titleWords": ["Webs", "Web Apps", "Marketing Digital", "Chatbots"],
-    "subtitle": "{{ESLOGAN}}",
+
+    "subtitle": "Somos {{NOMBRE_EMPRESA}}, {{ESLOGAN}} que impulsa negocios con tecnología de punta.",
+
     "primaryCta": "Solicitar propuesta",
     "secondaryCta": "Ver casos"
   },
   "services": [
-    { "title": "Desarrollo de sitios web", "description": "Sitios rápidos y accesibles", "icon": "code" },
-    { "title": "Web Apps", "description": "Aplicaciones escalables", "icon": "app" },
-    { "title": "Marketing digital", "description": "SEO, Ads y contenido", "icon": "chart" },
-    { "title": "Chatbots", "description": "Automatización conversacional", "icon": "bot" }
+
+    { "title": "Desarrollo de sitios web", "description": "Sitios rápidos y accesibles con diseño responsivo y optimización SEO.", "icon": "code" },
+    { "title": "Web Apps", "description": "Aplicaciones web progresivas, escalables y seguras.", "icon": "app" },
+    { "title": "Marketing digital", "description": "Campañas de SEO, Ads y contenido para escalar tu presencia online.", "icon": "chart" },
+    { "title": "Chatbots", "description": "Bots inteligentes que automatizan la atención al cliente 24/7.", "icon": "bot" }
+
   ],
   "contact": {
     "email": "{{EMAIL}}",
     "phone": "{{TELEFONO}}",
-    "address": "{{DIRECCION}}"
+
+    "address": "{{DIRECCION}}",
+    "description": "Completa el formulario y nos comunicaremos contigo en menos de 24 horas."
+
   }
 }

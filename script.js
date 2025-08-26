@@ -23,6 +23,9 @@ async function loadSite() {
   document.getElementById('contact-email').textContent = data.contact.email;
   document.getElementById('contact-phone').textContent = data.contact.phone;
   document.getElementById('contact-address').textContent = data.contact.address;
+
+  document.getElementById('contact-description').textContent = data.contact.description;
+
 }
 loadSite();
 
