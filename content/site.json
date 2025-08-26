@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "titleWords": ["Webs", "Web Apps", "Marketing Digital", "Chatbots"],
+    "subtitle": "{{ESLOGAN}}",
+    "primaryCta": "Solicitar propuesta",
+    "secondaryCta": "Ver casos"
+  },
+  "services": [
+    { "title": "Desarrollo de sitios web", "description": "Sitios rápidos y accesibles", "icon": "code" },
+    { "title": "Web Apps", "description": "Aplicaciones escalables", "icon": "app" },
+    { "title": "Marketing digital", "description": "SEO, Ads y contenido", "icon": "chart" },
+    { "title": "Chatbots", "description": "Automatización conversacional", "icon": "bot" }
+  ],
+  "contact": {
+    "email": "{{EMAIL}}",
+    "phone": "{{TELEFONO}}",
+    "address": "{{DIRECCION}}"
+  }
+}
